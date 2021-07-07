@@ -1,35 +1,36 @@
-#Prova sobre linguagem de programacao Orientada a Objetos (UTFPR)
+#Prova sobre linguagem de Programacao Orientada a Objetos (UTFPR)
   
-(Quest„o - 1) Em um programa C++ (para console), crie uma classe abstrata chamada de
-Nave com uma ˙nica funÁ„o virtual pura chamada ìvoid informe_natureza()=0î podendo,
-entretanto, ter outras funÁıes que n„o sejam virtuais puras, incluindo construtora e
-destrutora. Esta classe ter· um atributo protegido alfanumÈrico chamado n˙mero,
-certamente com seus respectivos mÈtodos get e set. Ainda, quando pertinente, usar
-elementos constantes (i.e. atributos, funÁıes, retornos e par‚metros constantes) nesta classe,
-assim como nas demais classes solicitadas nas demais questıes. 
+(Quest√£o - 1) Em um programa C++ (para console), crie uma classe abstrata chamada de
+Nave com uma √∫nica fun√ß√£o virtual pura chamada ‚Äúvoid informe_natureza()=0‚Äù podendo,
+entretanto, ter outras fun√ß√µes que n√£o sejam virtuais puras, incluindo construtora e
+destrutora. Esta classe ter√° um atributo protegido alfanum√©rico chamado n√∫mero,
+certamente com seus respectivos m√©todos get e set. Ainda, quando pertinente, usar
+elementos constantes (i.e. atributos, fun√ß√µes, retornos e par√¢metros constantes) nesta classe,
+assim como nas demais classes solicitadas nas demais quest√µes. 
 
-(Quest„o - 2) Crie uma classe Lista_Naves (em C++) para ponteiros de objetos de
-subclasses de Nave baseando-se nos princÌpios de lista simplesmente encadeada. Ainda, a
-classe Lista_Naves dever· ter um mÈtodo para incluir, um mÈtodo para excluir e outro para
-listar. Particularmente, a cada chamada, o mÈtodo incluir permitir· incluir (um ponteiro de
-objeto de subclasse de Nave) sempre na ˙ltima posiÁ„o da lista. Por sua vez, o mÈtodo
-excluir permitir· excluir (um ponteiro) de qualquer posiÁ„o da lista conforme par‚metro (de
-posiÁ„o na lista) dado na chamada do mÈtodo, sendo o valor default deste par‚metro a
-˙ltima posiÁ„o. Por fim, a listagem apresentar· a ënaturezaí de cada objeto.
+(Quest√£o - 2) Crie uma classe Lista_Naves (em C++) para ponteiros de objetos de
+subclasses de Nave baseando-se nos princ√≠pios de lista simplesmente encadeada. Ainda, a
+classe Lista_Naves dever√° ter um m√©todo para incluir, um m√©todo para excluir e outro para
+listar. Particularmente, a cada chamada, o m√©todo incluir permitir√° incluir (um ponteiro de
+objeto de subclasse de Nave) sempre na √∫ltima posi√ß√£o da lista. Por sua vez, o m√©todo
+excluir permitir√° excluir (um ponteiro) de qualquer posi√ß√£o da lista conforme par√¢metro (de
+posi√ß√£o na lista) dado na chamada do m√©todo, sendo o valor default deste par√¢metro a
+√∫ltima posi√ß√£o. Por fim, a listagem apresentar√° a ‚Äònatureza‚Äô de cada objeto.
 
-(Quest„o - 3) Em ++, crie uma classe Avi„o (com atributo privado booleano supersÙnico e
+(Quest√£o - 3) Em ++, crie uma classe Avi√£o (com atributo privado booleano supers√¥nico e
 seus respectivos get e set) e uma classe Navio (com um atributo privado inteiro capacidade
-e seus respectivos get e set), ambas derivadas de Nave e cada qual com uma funÁ„omembro chamada ìvoid informe_natureza()î. No caso de Avi„o tal funÁ„o-membro
-informar· (em tela) ìTransporte AÈreoî, enquanto que no caso de Navio informar·
-ìAqu·ticoî. Por fim, sobrecarregue o operador de igualdade (operator==) na classe Navio
-de maneira que um objeto desta possa comparar todos seus atributos (inclusive o conjunto
-de atributos herdados) para com todos os atributos de outro objeto desta mesma classe. 
+e seus respectivos get e set), ambas derivadas de Nave e cada qual com uma fun√ß√£omembro chamada 
+‚Äúvoid informe_natureza()‚Äù. No caso de Avi√£o tal fun√ß√£o-membroinformar√° (em tela) ‚ÄúTransporte 
+A√©reo‚Äù, enquanto que no caso de Navio informar√° ‚ÄúAqu√°tico‚Äù. Por fim, sobrecarregue o operador
+de igualdade (operator==) na classe Navio de maneira que um objeto desta possa comparar todos
+seus atributos (inclusive o conjuntode atributos herdados) para com todos os atributos de outro
+objeto desta mesma classe. 
 
-(Quest„o - 4) Em C++, crie uma classe Principal cujo ˙nico objeto (ou inst‚ncia) poder·
-armazenar em si ponteiros de objetos Avi„o por meio de uma funÁ„o void incluir_Avi„o
-(Avi„o* pa), bem como poder· armazenar em si ponteiros de objetos Navio por meio de
-uma funÁ„o void incluir_Navio (Navio* pn). Entretanto, estes apontamentos de objetos
-Avi„o e Navio ser„o armazenados como apontamentos de objetos Nave, por meio de
+(Quest√£o - 4) Em C++, crie uma classe Principal cujo √∫nico objeto (ou inst√¢ncia) poder√°
+armazenar em si ponteiros de objetos Avi√£o por meio de uma fun√ß√£o void incluir_Avi√£o
+(Avi√£o* pa), bem como poder√° armazenar em si ponteiros de objetos Navio por meio de
+uma fun√ß√£o void incluir_Navio (Navio* pn). Entretanto, estes apontamentos de objetos
+Avi√£o e Navio ser√£o armazenados como apontamentos de objetos Nave, por meio de
 static_cast, em uma lista para tal. 
 
-![UML-NAVE]()
+![UML-NAVE](https://github.com/BrunoHarlis/POO-com-UML/blob/main/Nave/ProvaA13.jpg)
