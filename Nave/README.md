@@ -1,4 +1,4 @@
-#Prova sobre linguagem de Programacao Orientada a Objetos (UTFPR)
+## Prova sobre linguagem de Programacao Orientada a Objetos (UTFPR)
   
 (Questão - 1) Em um programa C++ (para console), crie uma classe abstrata chamada de
 Nave com uma única função virtual pura chamada “void informe_natureza()=0” podendo,
@@ -23,7 +23,7 @@ e seus respectivos get e set), ambas derivadas de Nave e cada qual com uma funç
 “void informe_natureza()”. No caso de Avião tal função-membroinformará (em tela) “Transporte 
 Aéreo”, enquanto que no caso de Navio informará “Aquático”. Por fim, sobrecarregue o operador
 de igualdade (operator==) na classe Navio de maneira que um objeto desta possa comparar todos
-seus atributos (inclusive o conjuntode atributos herdados) para com todos os atributos de outro
+seus atributos (inclusive o conjunto de atributos herdados) para com todos os atributos de outro
 objeto desta mesma classe. 
 
 (Questão - 4) Em C++, crie uma classe Principal cujo único objeto (ou instância) poderá
