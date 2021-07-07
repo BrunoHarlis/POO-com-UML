@@ -1,5 +1,7 @@
 ## Prova sobre linguagem de Programacao Orientada a Objetos (UTFPR)
   
+![UML-NAVE](https://github.com/BrunoHarlis/POO-com-UML/blob/main/Nave/UML-ProvaA13.jpg)
+
 (Questão - 1) Em um programa C++ (para console), crie uma classe abstrata chamada de
 Nave com uma única função virtual pura chamada “void informe_natureza()=0” podendo,
 entretanto, ter outras funções que não sejam virtuais puras, incluindo construtora e
@@ -32,5 +34,3 @@ armazenar em si ponteiros de objetos Avião por meio de uma função void inclui
 uma função void incluir_Navio (Navio* pn). Entretanto, estes apontamentos de objetos
 Avião e Navio serão armazenados como apontamentos de objetos Nave, por meio de
 static_cast, em uma lista para tal. 
-
-![UML-NAVE](https://github.com/BrunoHarlis/POO-com-UML/blob/main/Nave/UML-ProvaA13.jpg)
