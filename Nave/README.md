@@ -33,4 +33,4 @@ uma função void incluir_Navio (Navio* pn). Entretanto, estes apontamentos de o
 Avião e Navio serão armazenados como apontamentos de objetos Nave, por meio de
 static_cast, em uma lista para tal. 
 
-![UML-NAVE](https://github.com/BrunoHarlis/POO-com-UML/blob/main/Nave/ProvaA13.jpg)
+![UML-NAVE](https://github.com/BrunoHarlis/POO-com-UML/blob/main/Nave/UML-ProvaA13.jpg)
