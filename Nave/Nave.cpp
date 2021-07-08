@@ -2,8 +2,8 @@
 #include <string>
 #include <iostream>
 
-Nave::Nave(){	m_numero = " ";}
-Nave::~Nave(){}
+Nave::Nave() { m_numero = " "; }
+Nave::~Nave() {}
 
 const std::string& Nave::getNumero() const { return m_numero; }
 void Nave::setNumero(const std::string& numero) { m_numero = numero; }
@@ -23,8 +23,8 @@ void Aviao::informe_natureza() const
 
 
 //Classe Navio
-Navio::Navio() : Nave(){	m_capacidade = 0;}
-Navio::~Navio(){	m_capacidade = 0;}
+Navio::Navio() : Nave() { m_capacidade = 0; }
+Navio::~Navio() { m_capacidade = 0; }
 
 void Navio::setCapacidade(const int capacidade) { m_capacidade = capacidade; }
 const int Navio::getCapacidade() const { return m_capacidade; }
