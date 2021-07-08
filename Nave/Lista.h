@@ -2,7 +2,7 @@
 #define LISTA_H
 #include "Nave.h"
 
-// QUESTAO 2
+// QUESTAO 2 (arquivo .h)
 class Elemento_Nave
 {
 private:

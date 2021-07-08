@@ -1,6 +1,7 @@
 #include "Lista.h"
 #include <iostream>
 
+// QUESTAO 2 (arquivo .cpp)
 Lista_Naves::~Lista_Naves()
 {
 	limpar();
