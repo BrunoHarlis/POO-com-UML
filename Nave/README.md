@@ -1,6 +1,6 @@
 ## Prova sobre linguagem de Programacao Orientada a Objetos (UTFPR)
   
-![UML-NAVE](https://github.com/BrunoHarlis/POO-com-UML/blob/main/Nave/UML-ProvaA13.jpg)
+![UML-NAVE](https://github.com/BrunoHarlis/POO-com-UML/blob/main/Nave/UML%20Nave.png)
 
 (Questão - 1) Em um programa C++ (para console), crie uma classe abstrata chamada de
 Nave com uma única função virtual pura chamada “void informe_natureza()=0” podendo,
